@@ -19,6 +19,18 @@ public class JavaApplication1 {
         variableCadena = "Adios";
                 
           System.out.println(variableCadena);
+          
+          /*
+            Var infiere el valor de la variable deacuerdo a la asignacion de los valores de la variable
+          */
+          
+          var numerosFeos = 10;
+          System.out.println(numerosFeos );
+          
+          var cadenaDos = "Cadena 2";
+          
+          System.out.println(cadenaDos);
+          System.out.println("cadenaDos = " + cadenaDos);
     }
     
 }
