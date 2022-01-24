@@ -10,7 +10,15 @@ public class JavaApplication1 {
         int variableEntera = 20;
         
         System.out.println(variableEntera);
+            variableEntera = 25;      
+        System.out.println(variableEntera);
+        // variable del tipo String
+        String variableCadena = "Juanito 12";
+        System.out.println(variableCadena);
+        
+        variableCadena = "Adios";
+                
+          System.out.println(variableCadena);
     }
     
 }
-
