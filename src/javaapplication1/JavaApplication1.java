@@ -1,6 +1,10 @@
 
 package javaapplication1;
 
+//Imports 
+
+import java.util.Scanner;
+
 public class JavaApplication1 {
 
     //metodo main que ejecuta la clase
@@ -71,6 +75,52 @@ public class JavaApplication1 {
         
         System.out.println( saludos + (i+j) );
         // los parentesis indican que la suma se hara primero
+        
+        var nombre2 = "Karla";
+        System.out.println(nombre2);
+        //salto de linea con el caracter "\n"
+        System.out.println("Nueva linea de codigo:  \n" + nombre2);
+        System.out.println("Con tabulador: \t" + nombre2);
+        // agrega un tab a los caracteres que le siguen
+        System.out.println("Retroceso: \b " + nombre2 );
+        // quita el espacio en blanco
+        System.out.println("Comillas simples \'" + nombre2 + "\'");
+        // agrega las comillas simples al valor de la variable
+        
+        System.out.println("Comillas dobles: \" " + nombre2 + " \"" );
+        // comillas dobles con el carcter de escape
+        
+        /*
+            Clase scanner 
+        */
+       
+        
+        System.out.println("Ingresa tu nombre: ");
+        Scanner consola =  new Scanner(System.in);
+        var usuario2 = consola.nextLine();
+        //lee la informacion de la consola
+        //asigna el valor ingresado a la varibale usuario2
+        System.out.println("usuario2 = " + usuario2);
+           
+        System.out.println("Ingresa un titulo: ");
+        var titulo2  =  consola.nextLine();
+        System.out.println("El resultado es: " + usuario2 +" " + titulo2 );
+     
+        /*
+            TIPOS PRIMITIVOS DE DATOS ENTEROS
+        
+            byte, short , int, long  
+        */
+        
+        
+        
+        byte numeroByte = (byte)129;
+        // no se pude asignar el valor 129 a un byte
+        // convertimos el valor de tipo entero de 129 a un byte
+        // no se recomienda usar este tipo de sintaxis
+        System.out.println(numeroByte);
+        System.out.println("Valor minimo del byte: " + Byte.MIN_VALUE );
+        System.out.println("Valor minimo del byte: " + Byte.MAX_VALUE );
     }
     
 }
