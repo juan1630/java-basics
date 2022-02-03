@@ -121,6 +121,42 @@ public class JavaApplication1 {
         System.out.println(numeroByte);
         System.out.println("Valor minimo del byte: " + Byte.MIN_VALUE );
         System.out.println("Valor minimo del byte: " + Byte.MAX_VALUE );
+        
+        //el tipo de dato short alamcena hasta 16 bits
+        short  numeroShort  =10;
+        
+        System.out.println("numeroShort = " + numeroShort);
+        System.out.println("El numero menor es: " + Short.MIN_VALUE );
+        System.out.println("El numero mayor es: " + Short.MAX_VALUE);
+      
+        // numeros de tipo entero
+         int numeroInt2 = (int)2147483649L;
+         //se convierte a tipo long 
+        //los int no se pueden convertir de este manera  (int) 2147483648
+        System.out.println(numeroInt2);
+        int numeroInt = 21474830;
+        
+        System.out.println("numeroInt = " + numeroInt);
+        
+        System.out.println("El numero menor es: " + Integer.MIN_VALUE );
+        System.out.println("El numero mayor es: " + Integer.MAX_VALUE);
+        
+        long numeroLong = 9223372036854775807L;
+        
+        System.out.println("numero long = " + numeroLong);
+       
+        System.out.println("El numero menor es: " + Long.MIN_VALUE );
+        System.out.println("El numero mayor es: " + Long.MAX_VALUE);
+        
+        
+        /*
+            Tipos primitivos de los flotantes
+        
+            float y double
+        el tipo de dato float almacena valores mas grandes que del tipo long 
+        */
+        
+        
     }
     
 }
