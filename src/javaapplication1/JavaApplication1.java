@@ -153,10 +153,37 @@ public class JavaApplication1 {
             Tipos primitivos de los flotantes
         
             float y double
-        el tipo de dato float almacena valores mas grandes que del tipo long 
+                el tipo de dato float almacena valores mas grandes que del tipo long 
+        Si se sobre pasa el valor de tipo float arroja por defecto el valor de Infinity
+
+        */
+       
+        float numeroFlotante = 10.0F;
+        // la F indica que es de un tipo flotante 
+        System.out.println("numeroFlotante = " + numeroFlotante);
+        
+        float numeroFloante2  = (float)10.0;
+        System.out.println("numeroFloante2 = " + numeroFloante2);
+        System.out.println( "Valor minimo de la clase float: " + Float.MIN_VALUE );
+        System.out.println( "Valor maximo de la clase float: " + Float.MAX_VALUE );
+        
+        /*
+            Tipo double
         */
         
+        double numeroDoble = 20;
+        System.out.println("numeroDoble = " + numeroDoble);
+        System.out.println( "Valor minimo de la clase double: " + Double.MIN_VALUE );
+        System.out.println( "Valor maximo de la clase double: " + Double.MAX_VALUE );
         
+        var numeroEntero3 = 10;
+        System.out.println("numeroEntero3 = " + numeroEntero3);
+        /*
+            Toma el tipo de dato entero
+        */
+        
+        var numeroDoubleDebug = 20.02;
+        System.out.println("numeroDoubleDebug = " + numeroDoubleDebug);
     }
     
 }

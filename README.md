@@ -1,7 +1,7 @@
 # JAVA BASICS
 
  ## Recursos del curso de Java
-- Repo para los apuntes de los cursos de JAVA
+- Repo para los apuntes de los cursos de JAVA tipos de datos
 
 ### TIPOS DE DATOS
 
@@ -13,5 +13,14 @@
 - Tipo de dato long (Acepta de -9223372036854775807  a 9223372036854775807) casi no se usa
  
 ### Tipos de datos dprimitivos flotantes
-    #### Float y double
+
+### Float y double
+
 - El tipo de dato float almacena valores mas grandes que del tipo long 
+- El tipo float almacena los valores de -1.4E-45 a 3.4028235E38
+
+- Los valores de tipo double alamcen los valores de -4.9E-324 a 1.7976931348623157E308
+
+## Inferencia de tipos de datos 
+### Uso de la palabra reservada VAR
+
