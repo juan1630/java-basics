@@ -224,6 +224,36 @@ public class JavaApplication1 {
         int variableEnterADecimal =  '!';
         // convierte el valor del tipo char al valor del tipo decimal
         System.out.println("variableEnterADecimal = " + variableEnterADecimal);
+        
+        /*
+            Tipos de datos primitivos booleanos 
+        
+                Solo almacena los tipos true o false    
+                Tambien se les conoce como tipos de dato bandera
+        */
+        
+        //asignacion
+            
+        boolean varBoolean  = false;
+        
+        System.out.println("varBoolean = " + varBoolean);
+        
+        if( varBoolean ) {
+            System.out.println("La bandera es de tipo verdadera");
+        }else {
+            System.out.println("La bandera es de tipo false");
+        }
+        
+            var edadPersona = 3;
+            
+           // var esAdulto = edadPersona >= 18;
+            
+            if(edadPersona >= 18){
+                System.out.println("La persona es adulta");   
+            }else{
+                System.out.println("La persona NO es adulta");
+            }
+        
     }
     
 }
