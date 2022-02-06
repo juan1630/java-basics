@@ -220,6 +220,10 @@ public class JavaApplication1 {
         var varCharSimbolo1 = '!';
         
         System.out.println("varCharSimbolo = " + varCharSimbolo1);
+        
+        int variableEnterADecimal =  '!';
+        // convierte el valor del tipo char al valor del tipo decimal
+        System.out.println("variableEnterADecimal = " + variableEnterADecimal);
     }
     
 }
