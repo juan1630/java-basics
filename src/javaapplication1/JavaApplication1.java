@@ -184,6 +184,42 @@ public class JavaApplication1 {
         
         var numeroDoubleDebug = 20.02;
         System.out.println("numeroDoubleDebug = " + numeroDoubleDebug);
+        
+        
+        /*
+            Tipo de dato char
+        */
+        
+        char miCaracter = 'a';
+        
+        System.out.println(miCaracter);
+        
+        char varChar = '\u0021';
+        System.out.println("varChar = " + varChar);
+        
+        char varCharDecimal = 33;
+        // como se declara la varibale de tipo char convierte el valor decimal a un valor char
+        
+        System.out.println("varCharDecimal = " + varCharDecimal);
+        
+        char varCharSimbolo = '!';
+        
+        System.out.println("varCharSimbolo = " + varCharSimbolo);
+        
+        
+        var varChar1 = '\u0021';
+        System.out.println("varChar = " + varChar1);
+        
+        // no se puede asignar el valor directamente 
+        var varCharDecimal1 = 33;
+        // como se declara la varibale de tipo char convierte el valor decimal a un valor char
+        
+        System.out.println("varCharDecimal = " + varCharDecimal1);
+        // infiera el tipo int
+        
+        var varCharSimbolo1 = '!';
+        
+        System.out.println("varCharSimbolo = " + varCharSimbolo1);
     }
     
 }

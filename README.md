@@ -24,3 +24,7 @@
 ## Inferencia de tipos de datos 
 ### Uso de la palabra reservada VAR
 
+###  tipo de dato char
+- Es un solo caracter
+- Solo se usa las comillas simples
+- Si se le asigna a un tipo var un valor decimal obtiene el valor del entero
