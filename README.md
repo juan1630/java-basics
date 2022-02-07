@@ -31,3 +31,16 @@
 
 
 ### Tipo de dato primitivo booleano
+
+- Solo acepta dos tipos de dato true o false
+
+
+### Conversiones de tipos de datos
+
+- Tipo string a numerico
+- Integer.parseInt
+
+- Tipo string a double
+- Double.parse
+
+- Tipo Int a tipo String

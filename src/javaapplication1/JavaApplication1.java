@@ -253,7 +253,43 @@ public class JavaApplication1 {
             }else{
                 System.out.println("La persona NO es adulta");
             }
-        
+            
+            
+            var edadString = Integer.parseInt("20");
+            System.out.println("edadString = " + (edadString + 1));
+            
+            
+            var valorPI = Double.parseDouble("3.1416");
+            System.out.println("valorPI = " + (valorPI + 1));
+            
+            
+            // con la clase scanner
+            
+            var consola2 = new Scanner(System.in);
+            
+            System.out.println("Ingresa tu edad:");
+            edadString = Integer.parseInt(consola.nextLine());
+            System.out.println(" edad = " + (edadString + 1));
+            
+            
+            var edadTexto = String.valueOf(edadString);
+            // convierte a texto
+            System.out.println("edadTexto = " + edadTexto);
+            
+            
+            // convertir a tipo char
+            
+            var caracter3 = "hola".charAt(0);
+            // cortamos la cadena 
+            System.out.println("caracter3 = " + caracter3);
+            
+            System.out.println("Proporciona la cadena: ");
+            
+            var consolaChart = new Scanner( System.in);
+            caracter3 = consolaChart.nextLine().charAt(0);
+            System.out.println("consolaChart = " + caracter3);
+            
+            
     }
     
 }
