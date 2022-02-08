@@ -44,3 +44,11 @@
 - Double.parse
 
 - Tipo Int a tipo String
+
+
+### Operadores 
+
+ - Evaluan expresiones
+
+#### Operadores aritmeticos
+
