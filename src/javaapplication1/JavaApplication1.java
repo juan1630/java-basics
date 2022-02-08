@@ -288,7 +288,31 @@ public class JavaApplication1 {
             var consolaChart = new Scanner( System.in);
             caracter3 = consolaChart.nextLine().charAt(0);
             System.out.println("consolaChart = " + caracter3);
+
+            /*
             
+                Tarea 1
+            */
+            
+            System.out.println("Ingresa el nombre");
+            var consolaNombre = new Scanner(System.in);            
+           var consolaResp = consolaNombre.nextLine();
+            
+           System.out.println("Ingresa el ID del producto");
+            var consolaIdProdcuto = new Scanner(System.in);
+            var idProductoResp = consolaIdProdcuto.nextLine();
+            System.out.println("Ingresa el precio");
+            var consolaPrecio = new Scanner(System.in);
+            var consolaPrecioResp = consolaPrecio.nextLine();
+            
+            System.out.println("Ingresa el envio");
+            var consolaEnvioGratis = new Scanner(System.in);
+            var consolaEnvioResp = consolaEnvioGratis.nextLine();
+
+              System.out.println(consolaResp);
+              System.out.println(idProductoResp);
+              System.out.println(consolaPrecioResp);
+              System.out.println(consolaEnvioResp);
             
     }
     
