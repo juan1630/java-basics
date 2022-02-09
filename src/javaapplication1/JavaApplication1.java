@@ -314,6 +314,49 @@ public class JavaApplication1 {
               System.out.println(consolaPrecioResp);
               System.out.println(consolaEnvioResp);
             
+              
+                      /*
+        var a = 3;
+        var b = 10;
+        */
+        // para usar var se deben de declarar la variables por separado
+            
+        int a = 3, b = 10;
+        
+        var resultado = a + b;
+        // suma 
+        
+        System.out.println("resultado de la suma  = " + resultado);
+        
+        
+        var resultadoResta = a-b;
+        System.out.println("resultado de la resta = " + resultadoResta);
+        
+        resultadoResta = a * b;
+        
+        System.out.println("resultadoResta = " + resultadoResta);
+        
+        var resultadoResta2 = a/b;
+        //la variable siempre se queda con el tipo de dato con el que se inicializo
+        System.out.println("Resultado de la division = " + resultadoResta2);
+        
+        
+        //operador de modulo 
+        
+        
+        resultadoResta = a%b;
+        System.out.println("resultadoResta modulo = " + resultadoResta);
+        
+        
+        if( a %2   == 0){
+            // si solo hay una linea dentro del if se omiten las llaves
+                System.out.println("Es par");
+        }   else {
+            System.out.println("No es par");
+        }
+    
     }
+    
+    
     
 }
