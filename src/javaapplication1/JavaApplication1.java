@@ -354,9 +354,57 @@ public class JavaApplication1 {
         }   else {
             System.out.println("No es par");
         }
-    
+        
+        int a1 = 3, b1 =5;
+        
+        int c = a1 + 5 - b1;
+        
+        System.out.println("c = " + c);
+        
+        // operador de  incremento
+        a++;
+            
+        //operador de composicion
+        
+        a1+=1;
+        
+        System.out.println("a1 = " + a1);
+        
+        a1 += 3;
+        
+        System.out.println("a1 = " + a1);
+        
+        
+         a1 -= 3;
+        
+        System.out.println("a1 = " + a1);
+        
+                a1 *= 3;
+        
+        System.out.println("a1 = " + a1);
+        
+                a1 /= 3;
+        
+        System.out.println("a1 = " + a1);
+        
+        
+        /*
+            Variables unarias
+        */
+        
+        
+        var a2 = 3;
+        var b2 = -a2;
+        //hace el cambio de signo
+        System.out.println("a2 = " + a2);
+        System.out.println("b2 = " + b2);
+        
+        var c1 = true;
+        var d = !c1;
+        //simbolo de negacion
+        
+        System.out.println("d = " + d);
+        // solo aplica para tipos boolean
     }
-    
-    
     
 }

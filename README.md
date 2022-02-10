@@ -52,3 +52,12 @@
 
 #### Operadores aritmeticos
 
+- operador de suma  +
+- operador de resta -
+- operador de division /
+- operador de modulo % regresa el residuo de la operacion4
+- Operador de asignacion
+
+#### Operadores unarios
+ - Cambio de signo -a
+- Negacoion !a, solo aplica para valores booleanos
