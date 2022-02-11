@@ -405,6 +405,41 @@ public class JavaApplication1 {
         
         System.out.println("d = " + d);
         // solo aplica para tipos boolean
+        
+        /*
+            Operadores de incremento 
+            -   operadores de pre incremento
+                Aumenta primero el valor y despues se usa la variable
+            -   operadores de incremento 
+                Aumenta el valor de la variable despues de hacer el uso de la variable 
+        */  
+        
+        var e = 3;
+        var f = ++e;
+        
+        System.out.println("f = " + f);
+        
+        
+        var g = 6;
+        var h = g++;
+        
+        System.out.println("g = " + g);
+        System.out.println("h = " + h);
+        
+        //decremento, dismuye en 1 el valor de la variable
+        
+        var z= 2;
+        var x = --z;
+        
+        System.out.println("z = " + z);
+        System.out.println("x = " + x);
+        
+        
+        var k = 4;
+        var l = k--;
+        
+        System.out.println("k = " + k);
+        System.out.println("l = " + l);
     }
     
 }

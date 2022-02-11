@@ -61,3 +61,9 @@
 #### Operadores unarios
  - Cambio de signo -a
 - Negacoion !a, solo aplica para valores booleanos
+- Operadores de incremento y decremento
+    - preincremnento ++e
+    - postincremento e++
+
+    - predecrmento --e
+    - postdecremnto e--
