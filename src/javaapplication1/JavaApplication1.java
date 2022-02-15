@@ -440,6 +440,33 @@ public class JavaApplication1 {
         
         System.out.println("k = " + k);
         System.out.println("l = " + l);
-    }
+        
+        
+        var a3 = 2;
+        var b3 = 3;
+        
+        var c3 = a3 == b3;
+        
+        System.out.println("c3 = " + c3);
+        
+        var d3 = (a3 != b3);
+        
+        System.out.println("d3 = " + d3);
+        
+        var cadena1 = "Hola";
+        var cadena2 = "Adios";
+        
+        var e3 = cadena1.equals(cadena2);
+        //comparamos el contenido de la cadena 
+        
+        System.out.println("e3 = " + e3);
+        
+        
+        var g3 = a3> b3;            
+        System.out.println("g3 = " + g3);
+        
+         var g4 = a3 < b3;
+         System.out.println("g4 = " + g4);
+     }
     
 }

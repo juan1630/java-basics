@@ -67,3 +67,11 @@
 
     - predecrmento --e
     - postdecremnto e--
+
+- Operadores de igualdad
+    - operadores de igualdad
+    - operadores de asignacion
+
+- Operadores relacionales
+    - Indica si un valor es igual o mayor a otro
+
