@@ -75,3 +75,11 @@
 - Operadores relacionales
     - Indica si un valor es igual o mayor a otro
 
+- Operadores relaciones 
+    - AND && devuelve true cuando los dos valores son true
+    - OR || devuelve true cuando uno de los dos valores es true
+
+
+- Operador ternario
+    - consta de 3 partes
+    - devulve un valor 
