@@ -467,6 +467,33 @@ public class JavaApplication1 {
         
          var g4 = a3 < b3;
          System.out.println("g4 = " + g4);
+         
+         /*
+            Verificamos que el numero sea par 
+         */
+         
+         
+         if( a3 % 2  == 2 ) {
+            System.out.println("Es par");
+         }else {
+            System.out.print("No es par");
+         }
+         
+         var edad3 = 30;
+         
+         if(edad3 >= 18){
+             System.out.println("Es mayor de edad");
+         }else{
+             System.out.println("ES mneor de edad");
+         }
+         
+         
+         /*
+            Operadores condicionales 
+         */
+         
+         
+         
      }
     
 }
