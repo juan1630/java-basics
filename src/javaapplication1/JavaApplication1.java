@@ -481,6 +481,39 @@ public class JavaApplication1 {
         System.out.println("resutado = " + resultado7);
         */
 
+        
+        /*
+            Operadores unarios
+         */
+        
+            var x7 = 5;
+            var z7 = 10;
+            
+            var z8 = ++x7 + z7--;
+            
+            /*
+                Primero se realiza la suma y despues el decremento al ultimo la suma de los 2 resultados
+                x7 = 6
+                y7 = 10
+                z8 = 16
+                y7 = 9 ya que es un post decremento
+            */
+            System.out.println("z = " + z);
+        
+            var resultado7 = 4+5*6/3;
+            System.out.println("resultado7 = " + resultado7);
+            
+            /*
+                La multiplicacio y la division tiene mayor presedencia 
+                ( 4 + (5*6)/3)
+            asi se ejecuta la funcion
+            */
+            
+            var resultado8 = (4+5)*6/3;
+            System.out.println("resultado8 = " + resultado8);
+            /*
+                Cambio de resultado
+            */
     }
 
 }

@@ -82,4 +82,15 @@
 
 - Operador ternario
     - consta de 3 partes
+        - condicion
+        - valor si es true 
+        - valor si es false
+
     - devulve un valor 
+
+
+- Presedencia de operadores
+    - Existen varios niveles
+    - el nivel mas basico son +,-, ++, --
+    - un nivel mas alto es  *,/ 
+    - Se pueden agrupar para ejecutar los valores
