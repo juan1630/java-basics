@@ -514,6 +514,27 @@ public class JavaApplication1 {
             /*
                 Cambio de resultado
             */
+    
+             
+            /*
+            
+                Expresion if else 
+            */
+            
+                var numeroTexto = "Numero desconocido";
+                var numeroEvaluar = 2;
+                
+                if( numeroEvaluar == 1 ) {
+                    
+                    System.out.println("Es un numero 1");
+                }else if( numeroEvaluar == 2 ){
+                    System.out.println("Es un numero 2");
+                }else if( numeroEvaluar == 3 ) {
+                    System.out.println("Es el numero 3");
+                }else {
+                    System.out.println("Fuera de rango");
+                }
+    
     }
 
 }
