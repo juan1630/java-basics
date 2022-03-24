@@ -94,3 +94,15 @@
     - el nivel mas basico son +,-, ++, --
     - un nivel mas alto es  *,/ 
     - Se pueden agrupar para ejecutar los valores
+
+
+- Condicionales de flujo IF, IF ELSE E IF ELSE IF
+    - Se usan para condicionar el flujo en el que se ejecuta el programa
+    - el else if liga las condiciones y optmiza el tiempo de ejecucion y de evaluacion
+
+- Sentecia SIWTCH CASE:
+    - Evalua una expresion NO debe de ser booleanos
+    - Pueden ser tipos numericos, string
+    - Si coincide con el caso que se especifica
+    - Se debe de agregar la sentecia break, sino continua evaluando todos los casos
+

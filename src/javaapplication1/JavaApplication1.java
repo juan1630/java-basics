@@ -521,6 +521,9 @@ public class JavaApplication1 {
                 Expresion if else 
             */
             
+                            /*
+                    El else if liga las condiciones a evaluar
+                */
                 var numeroTexto = "Numero desconocido";
                 var numeroEvaluar = 2;
                 
@@ -534,6 +537,29 @@ public class JavaApplication1 {
                 }else {
                     System.out.println("Fuera de rango");
                 }
+                
+                
+                /*
+                    Ejercicio de if else 
+                */
+                
+                var mesEjercicio = 1;
+                var estacion = "Estacio Desconocida";
+                
+                if( mesEjercicio == 1  || mesEjercicio == 2 || mesEjercicio == 12  ) {
+                    
+                    estacion = "INVIERNO";
+                
+                }else if( mesEjercicio == 3 || mesEjercicio == 4 || mesEjercicio == 5 ){
+                        estacion = "PRIMAVERA";
+                
+                }else if( mesEjercicio == 6 || mesEjercicio == 7 || mesEjercicio == 8 ){
+                        estacion = "VERANO";
+                }else if( mesEjercicio == 9 || mesEjercicio == 10 || mesEjercicio == 11 ){
+                    estacion = "OTONIO";
+                }
+                
+                System.out.println("estacion = " + estacion);
     
     }
 
