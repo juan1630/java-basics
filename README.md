@@ -105,4 +105,5 @@
     - Pueden ser tipos numericos, string
     - Si coincide con el caso que se especifica
     - Se debe de agregar la sentecia break, sino continua evaluando todos los casos
+    - Entra al default sino hay un case que coincida
 

@@ -560,7 +560,47 @@ public class JavaApplication1 {
                 }
                 
                 System.out.println("estacion = " + estacion);
-    
-    }
+                
+                var numeroSwitch = 2;
+                var numeroTexto1 = "Valor desconocido";
+                
+                switch(numeroSwitch){
+                    case 1:
+                        numeroTexto1 = "Numero uno";
+                        break;
+                    case 2:
+                        numeroTexto1 = "Numero dos";
+                        break;
+                    case 3:
+                        numeroTexto1 = "Numero tres";
+                        break;
+                    case 4:
+                         numeroTexto1 = "Numero cuatro";
+                         break;
+                    default:
+                        numeroTexto1 = "Caso no encontrado";
+                }
+                
+                
+                var contadorWhile = 0;
+                
+                while(contadorWhile < 3){
+                    System.out.println("contadorWhile = " + contadorWhile);
+                    contadorWhile++;
+                    /*
+                        Es importante incrementar el contador sino dara un debordamiento de pila
+                    */
+                }
+                
+                
+                var contadorDoWhile = 0;
+                
+                do {
+                    
+                    System.out.println("contadorDoWhile = " + contadorDoWhile);
+                    contadorDoWhile++;
+                }while(contadorDoWhile < 3);
+                    
+           }
 
 }
