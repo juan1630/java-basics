@@ -600,7 +600,19 @@ public class JavaApplication1 {
                     System.out.println("contadorDoWhile = " + contadorDoWhile);
                     contadorDoWhile++;
                 }while(contadorDoWhile < 3);
+                
+                     /*
+        Ciclo for
+    */
                     
-           }
-
+          for( var contadorFor = 0; contadorFor < 3; contadorFor++ ){     
+            
+              if(contadorFor % 2 != 0){
+                   System.out.println("contadorFor = " + contadorFor);
+                    /*break; */
+                    continue;
+                    /*Pasa a la siguiente iteracion*/
+              }
+             }
+        }
 }

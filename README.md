@@ -107,3 +107,31 @@
     - Se debe de agregar la sentecia break, sino continua evaluando todos los casos
     - Entra al default sino hay un case que coincida
 
+- Ciclos 
+        - Repite una serie de lineas de codigo
+        - Debe de cumplir una condicion
+        - Debe de realizar una sentencia 
+        - Se ejecuta hasta que la condicion se deje de cumplir 
+
+    - While cycle
+    - Es el ciclo mas basico de java
+
+- Do while 
+    - Es muy similar al ciclo while
+    - Cambia en la forma en que se ejecutan las lineas de codigo
+    - primero se ejecuta una vez el cuerpo del ciclo
+ 
+- Ciclo For
+    - cuenta con una instruccion a evaluar
+    - Lleva el contador
+    - realiza el incremento
+
+- Break y coninue palabras reservadas
+    - La palabra break permite romper un ciclo 
+    - El continue salta a la siguiente iteracion
+
+
+
+## Clases y objetos
+
+ - Es una plantilla de la cual se crean objetos de la clase
