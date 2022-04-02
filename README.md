@@ -134,4 +134,7 @@
 
 ## Clases y objetos
 
- - Es una plantilla de la cual se crean objetos de la clase
+    - Es una plantilla de la cual se crean objetos de la clase
+    - La clase posee atributos y metodos
+
+## los packages son conjuntos de clases
