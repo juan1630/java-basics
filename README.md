@@ -138,3 +138,8 @@
     - La clase posee atributos y metodos
 
 ## los packages son conjuntos de clases
+
+   - metodos
+   - metodos con argumentos
+    - metodos con retorno
+
