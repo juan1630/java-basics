@@ -142,4 +142,13 @@
    - metodos
    - metodos con argumentos
     - metodos con retorno
+    - Operador this
+
+## Constructores 
+
+     - Crea un objeto con diferentes valores
+     - Reserva espacio de memoria
+     - Sobre carga de constructores tiene que ver con tener mas de 1 constructor
+
+- No se puede usar var para definir argumentos de un metodo
 
